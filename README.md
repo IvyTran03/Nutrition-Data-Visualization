@@ -2,7 +2,7 @@
 This project visualizes the nutritional content of fruits and vegetables to help users better understand fiber, sugar, and other nutrient values. Users can explore the data through interactive charts that compare different nutrients, filtered by food type and preparation (raw or cooked).
 
 ## Data Source
-[Original dataset on Kaggle]https://www.kaggle.com/datasets/yoyoyloloy/fruits-and-vegetables-nutritional-values?select=fruits.csv
+[Original dataset on Kaggle] https://www.kaggle.com/datasets/yoyoyloloy/fruits-and-vegetables-nutritional-values?select=fruits.csv
 
 ## Features
 - Interactive **bar chart** comparing fiber content across fruits and vegetables
@@ -11,7 +11,7 @@ This project visualizes the nutritional content of fruits and vegetables to help
 - **Color encoding** to distinguish food types:
   - Cooked vegetables: orange
   - Raw vegetables: dark green
-  - Fruits: green
+  - Fruits: dark green
 
 ## Built With
 - Javascript
@@ -32,4 +32,4 @@ if you're running Python 3.x or higher, use
 Now, open your browser and type `http://localhost:8080/` in the URL bar and press enter or go.
 
 ## Demo
-![Demo]https://imgur.com/a/ogfGgMx
+![Demo] https://imgur.com/a/ogfGgMx
