@@ -1,0 +1,73 @@
+body {
+    font: 12px sans-serif;
+}
+
+#legend {
+    font: 12px sans-serif;
+}
+
+.tick>line {
+    fill: none;
+    stroke: black;
+}
+
+.tick>text {
+    fill: black;
+}
+
+path.domain {
+    fill: none;
+    stroke-width: 2px;
+    stroke: black;
+}
+
+#wrapper {
+    clear: both;
+}
+
+#chart1 {
+    float: left;
+}
+
+#chart2 {
+    float: left;
+}
+#key {
+    position: relative;
+    top: -640px;
+    right: -800px;
+}
+.bar{
+    fill: darkgray;
+}
+.raw {
+    fill:darkgreen;
+    opacity: 1;
+}
+.cooked {
+    fill: #FFA500;
+    opacity: 1;
+}
+.fruit {
+    fill: steelblue;
+    opacity: 1;
+}
+.category-selector{
+    position: relative;
+    top: 70px; 
+    left: 350px; 
+}
+.xAxis-selector{
+    position: relative;
+    top: 50px; /* Move down by 10px */
+    left: 1070px; /* Move right by 20px */
+}
+.yAxis-selector{
+    position: relative;
+    top: 30px; /* Move down by 10px */
+    left: 1220px; /* Move right by 20px */
+}
+h1{
+    position: relative;
+    left: 450px; /* Move right by 20px */
+}

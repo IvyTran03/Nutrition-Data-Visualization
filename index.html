@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Final Project</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="chart.js"></script>
+</head>
+
+<body>
+    <h1>Fruits and Vegetables Nutrition Information</h1>
+    <br />
+    <br />
+    <div class="category-selector">
+        <label for="category-select">Category:</label>
+        <select id="category-select"></select>
+    </div>
+    <div class="xAxis-selector">
+        <label for="xAxis-select">X-Axis:</label>
+        <select id="xAxis-select"></select>
+    </div>
+    <div class="yAxis-selector">
+        <label for="yAxis-select">Y-Axis:</label>
+        <select id="yAxis-select"></select>
+    </div>
+    <div id="wrapper">
+        <div id="chart1">
+        </div>
+        <div id="chart2">
+        </div>
+        <div id="key" style="display: inline-block;">
+            <strong>Cooked:</strong> <svg id="Cooked" width="30px" height="12px"></svg><br />
+            <strong>Raw:</strong> <svg id="Raw" width="30px" height="12px"></svg><br />
+            <strong>Not Available:</strong> <svg id="NA" width="30px" height="12px"></svg><br />
+        </div>
+    </div>
+</body>
+
+</html>
